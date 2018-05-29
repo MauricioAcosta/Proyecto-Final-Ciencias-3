@@ -32,7 +32,8 @@ def main(debug=False):
         """
         return {
                 'integer': 'int',
-                'string': 'String'
+                'string': 'String',
+                'booleano':'booleano'
         }.get(s.name, s.name)
 
     # Create output folder

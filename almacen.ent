@@ -6,6 +6,7 @@ entidad Productos:
   nombre -> string
   precio -> integer
   descripcion -> string
+  verdad -> booleano
 
 entidad Categoria:
   codigo -> integer

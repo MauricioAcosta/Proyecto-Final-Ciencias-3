@@ -25,7 +25,8 @@ def get_entity_mm(debug=False):
     # these will not be a part of `types` list of EntityModel.
     type_builtins = {
             'integer': SimpleType(None, 'integer'),
-            'string': SimpleType(None, 'string')
+            'string': SimpleType(None, 'string'),
+            'booleano': SimpleType(None, 'booleano')
     }
     entity_mm = metamodel_from_file(join(this_folder, 'entidad.tx'),
                                     classes=[SimpleType],
