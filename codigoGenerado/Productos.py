@@ -7,6 +7,7 @@ class Productos:
     this.nombre=nombre
     this.precio=precio
     this.descripcion=descripcion
+    this.verdad=verdad
 
   def getObjcategoria():
     return this.objcategoria
@@ -29,6 +30,9 @@ class Productos:
   def getDescripcion():
     return this.descripcion
 
+  def getVerdad():
+    return this.verdad
+
   def setObjcategoria(this,objcategoria):
     this.objcategoria = objcategoria
 
@@ -49,4 +53,7 @@ class Productos:
 
   def setDescripcion(this,descripcion):
     this.descripcion = descripcion
+
+  def setVerdad(this,verdad):
+    this.verdad = verdad
 
